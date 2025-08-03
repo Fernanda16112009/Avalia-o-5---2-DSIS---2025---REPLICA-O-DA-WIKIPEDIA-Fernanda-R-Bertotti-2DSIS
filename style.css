@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9c0;
+    color: #000000;
+}
+
+header, footer {
+    background-color: #fffc9f;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;  
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover {
+    background-color: rgb(200, 186, 125);
+    color: #ffffff;
+}
+main{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff9c0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+}
+h1, h2 {
+    color: #000000;
+}
+.biografia2 img {
+    width: 300px;
+    height: 350;
+
+}
+.biografia2 {
+    display: flex;
+    gap: 10px;
+}
+.fatos {
+    list-style-type: kannada;
+    margin: 15px;
+}
+table, td{
+    border: 1px solid #000;
+}
+th, td{
+    padding: 5px;
+    margin: 5px;
+}
+table caption h3 {
+    padding: 1px;
+    margin: 1px;
+}
+caption{
+    border: 1px solid #000;
+}
+#sagas{
+    text-align: center;
+}
+caption {
+    background-color: #f4e87d;
+}
+table{
+    background-color: #fff4af;
+}
+#citacao {
+    margin: 50px;
+    padding: 10px;
+}
+#citacao p {
+    font-family:"Libertinus Sans", sans-serif ;
+    font-weight: 400;
+}
+figcaption{
+    font-family:"Libertinus Sans", sans-serif ;
+    text-align: center;
+}
+.trilho {
+   width: 50px; 
+   height:25px ;
+   background-color: #c3c3c3;
+   display: flex;
+   border-radius: 150px;
+   position: relative;
+   cursor: pointer;
+   margin: 10px;
+}
+.trilho .indicador {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: scale(.8);
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+   
+
+}
+.trilho.dark{
+    background-color: #4d4d4d;
+}
+.trilho.dark .indicador{
+    left: 25px;
+    background-color: #000;
+}
+body.dark {
+    background-color: #232222;
+    color: #fff;
+}
+body.dark header, 
+body.dark h1,
+body.dark h2,
+body.dark a,
+body.dark footer,
+body.dark main{
+    background-color: #232222;
+    color: #fff;
+}
+body.dark caption,
+body.dark table,
+body.dark .tabela  {
+    background-color:#211e1e ;
+}
+body.dark footer {
+    background-color: #000;   
+}
+
+body.dark header,
+body.dark h1 {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark .trilho {
+    background-color: #4d4d4d;
+}
+
+body.dark .trilho .indicador {
+    left: 25px;
+    background-color: #000;
+}
+body.dark a:hover {
+    background-color:#000;
+    color: #ffffff;
+}
